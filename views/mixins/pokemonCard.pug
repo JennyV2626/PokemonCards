@@ -1,0 +1,18 @@
+mixin pokemonCard(pokemon)
+
+    div.card
+        div.card-header
+            div.card-title=pokemon.title
+            div.card-HP=pokemon.HP
+                img.card-energy(src='')
+        div.character
+            img.character-image(src=pokemon.img)
+        div.card-body
+            div.card-info
+                div.power1=pokemon.powerOne
+                div.power2=pokemon.powerTwo
+                div.otherInfo
+                    div.strength Strength
+                    div.resistance Resistance
+                    div.retreat Retreat Cost
+
