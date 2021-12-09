@@ -4,7 +4,7 @@ mixin pokemonCard(pokemon)
         div.card-header
             div.card-title=pokemon.title
             div.card-HP=pokemon.HP
-                img.card-energy(src='')
+                img.card-energy(src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Pokemon_Electric_Type_Icon.svg/1024px-Pokemon_Electric_Type_Icon.svg.png%27')
         div.character
             img.character-image(src=pokemon.img)
         div.card-body
@@ -13,6 +13,8 @@ mixin pokemonCard(pokemon)
                 div.power2=pokemon.powerTwo
                 div.otherInfo
                     div.strength Strength
+                        img.strength-cost(src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Pokemon_Electric_Type_Icon.svg/1024px-Pokemon_Electric_Type_Icon.svg.png%27')
                     div.resistance Resistance
+                        img.resistance-cost(src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Pokemon_Electric_Type_Icon.svg/1024px-Pokemon_Electric_Type_Icon.svg.png%27')
                     div.retreat Retreat Cost
-
+                        img.retreat-cost(src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Pokemon_Electric_Type_Icon.svg/1024px-Pokemon_Electric_Type_Icon.svg.png%27')

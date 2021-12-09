@@ -3,6 +3,7 @@ body {
   margin: 0;
   background: #f3f4f6;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-weight: bold;
 }
 
 .container {
@@ -13,21 +14,21 @@ body {
 }
 
 .card {
-  background: #FFF8A2;
+  background: #FFFBBE;
   border-radius: 16px;
-  border: solid #FFED0B;
+  border: solid #FFDB00;
   width: 300px;
   height: 400px;
 }
 
 .card-info {
-  text-weight: bold;
-  font-size: 18px;
+  font-size: 17px;
   text-align: center;
+  padding: 10px;
 }
 
 .character-image {
-  border: solid #FFED0B;
+  border: 3px solid #FFDB00;
   background-color: #F6F6F6;
   height:195px;
   width: 80%;
@@ -54,11 +55,18 @@ body {
 .otherInfo {
   display: flex;
   text-align: center;
+  justify-content: space-between;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 14px;
 }
 
-.card-type {
-  width: 50px;
-  height: 50px;
-  text-align: right;
+.power1 {
+  border-bottom: 2px solid black;
+  padding: 8px;
 }
 
+.power2 {
+  border-bottom: 2px solid black;
+  padding: 8px;
+}
